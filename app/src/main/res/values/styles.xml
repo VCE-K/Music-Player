@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Color palette-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--Translucent status bar-->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+ <!--   <style name="AppTheme.Main">
+        &lt;!&ndash;android:windowSharedElementsUseOverlay：表示共享元素是否使用叠加模式显示，false 表示不使用叠加模式。
+        android:windowExitTransition：表示 Activity 退出屏幕时的转场动画，即当该 Activity 被 finish() 或者被替换为另一个 Activity 时所显示的动画。
+        android:windowReenterTransition：表示重新进入 Activity 屏幕时的转场动画，即当该 Activity 从后台切换到前台时所显示的动画。
+        android:windowSharedElementExitTransition：表示共享元素在 Activity 退出屏幕时的转场动画，即当该 Activity 被 finish() 或者被替换为另一个 Activity 时，共享元素执行的动画效果。
+        android:windowSharedElementReenterTransition：表示共享元素重新进入 Activity 屏幕时的转场动画，即当该 Activity 从后台切换到前台时，共享元素执行的动画效果。
+        &ndash;&gt;
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+        <item name="android:windowExitTransition">
+            @transition/list_content_exit_transition
+        </item>
+        <item name="android:windowReenterTransition">
+            @transition/list_content_reenter_transition
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/list_shared_element_exit_transition
+        </item>
+        <item name="android:windowSharedElementReenterTransition">
+            @transition/list_shared_element_reenter_transition
+        </item>
+
+    </style>
+
+    <style name="AppTheme.Detail">
+
+        &lt;!&ndash;android:windowEnterTransition：当 Activity 进入屏幕时应该执行的动画效果，对应的是 @transition/detail_content_enter_transition 这个资源文件。
+
+        android:windowReturnTransition：当用户返回到之前的 Activity 时应该执行的动画效果，对应的是 @transition/detail_content_return_transition 这个资源文件。
+
+        android:windowSharedElementEnterTransition：当有共享元素（例如两个 Activity 中的 ImageView）在进入屏幕时应该执行的动画效果，对应的是 @transition/detail_shared_element_enter_transition 这个资源文件。
+
+        android:windowSharedElementReturnTransition：当有共享元素（例如两个 Activity 中的 ImageView）返回到之前的 Activity 时应该执行的动画效果，对应的是 @transition/detail_shared_element_return_transition 这个资源文件。
+        &ndash;&gt;
+        <item name="android:windowEnterTransition">
+            @transition/detail_content_enter_transition
+        </item>
+        <item name="android:windowReturnTransition">
+            @transition/detail_content_return_transition
+        </item>
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/detail_shared_element_enter_transition
+        </item>
+        <item name="android:windowSharedElementReturnTransition">
+            @transition/detail_shared_element_return_transition
+        </item>
+    </style>-->
+
+</resources>

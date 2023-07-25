@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/music_fragment_dest">
+
+    <fragment
+        android:id="@+id/music_fragment_dest"
+        android:name="cn.vce.musicplayer.frag.PlaylistFragment">
+
+        <action
+            android:id="@+id/action_music_fragment_dest_to_DetailFragment"
+            app:destination="@id/DetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailFragment"
+        android:name="cn.vce.musicplayer.frag.DetailFragment">
+    </fragment>
+
+</navigation>
